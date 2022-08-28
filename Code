@@ -5,6 +5,7 @@ int main()
     int  up = 0, lower = 0, digit = 0, other = 0;//Definition of variables to count the amount of letters, digits and other characters in the string.
     char buffer[256];//Definition of the array and its length.
     char* ptrbuffer;
+    cout << "Please enter a string" << endl;
     std::cin.getline(buffer, 256);//The user writes the input from the keyboard and only the first 255 characters are saved in the array (the character 256 is null).
     cout << buffer << endl;//The input array is printed on the screen.
     ptrbuffer = &buffer[0]; //The pointer points in the first element of the array.
